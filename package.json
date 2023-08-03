@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  },
+  "scripts":{
+    "firefox": "cypress run --spec cypress/e2e/3_UI_useinsider/uiTest.cy.js --browser firefox",
+    "chrome": "cypress run --spec cypress/e2e/3_UI_useinsider/uiTest.cy.js --browser chrome",
+    "api": "cypress run --spec cypress/e2e/4_API_petstore"
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "pet": {
+        "id": 123,
+        "category": {
+            "id": 55,
+            "name": "kittens"
+        },
+        "name": "Winkie",
+        "photoUrls": [
+            "http://url"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "fluffy"
+            }
+        ],
+        "status": "available"
+    },
+    "petValid": {
+        "id": "123",
+        "name": "Winkie",
+        "tags": [
+            {
+                "id": 1,
+                "name": "fluffy"
+            }
+        ],
+        "status": "unavailable"
+    },
+    "petInvalid": {
+        "id": "invalid",
+        "name": "Winkie",
+        "tags": [
+            {
+                "id": 1,
+                "name": "fluffy"
+            }
+        ],
+        "status": "unavailable"
+    },
+    "url": "https://petstore.swagger.io/v2/pet",
+    "petNameInvalid": "Terry",
+    "idInvalid": "222"
+}
